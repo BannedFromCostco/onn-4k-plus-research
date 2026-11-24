@@ -2,6 +2,8 @@
 
 This study ties a public stock OTA for the onn. Google TV 4K Plus, codename `coffey`, to the verified-boot metadata of one retail unit. It also records the limits of stock recovery evidence for Android 14 build **`URO4.260304.092/16202347`**. The manufacturer model references are **CS116K4** and **DV6116N**. The SoC reported by Android is **Amlogic S905X5M** on platform **S7D**. [Evidence and methods](EVIDENCE.md)
 
+For commands and expected output, see [Reproducing the verification checks](REPRODUCING.md).
+
 ## What the package establishes
 
 - **Exact build identity.** The signed OTA targets the full `coffey` fingerprint and September 2026 patch level recorded on the TV. The catalog entry also shows an older discovery fingerprint. The package’s signed target metadata is the way to distinguish these fields.
